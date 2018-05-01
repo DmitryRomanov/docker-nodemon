@@ -1,4 +1,4 @@
-FROM node:0.12
+FROM node:10-alpine
 MAINTAINER Dmitry Romanov "dmitry.romanov85@gmail.com"
 
 RUN ["npm", "install", "-g", "nodemon"]
